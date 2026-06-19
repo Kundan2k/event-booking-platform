@@ -181,7 +181,7 @@ export default function Events() {
           {/* Search bar */}
           <div className="relative max-w-xl mx-auto">
             <div className="absolute inset-y-0 left-4 flex items-center pointer-events-none">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-white/30" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4 text-black/30" aria-hidden="true">
                 <circle cx="11" cy="11" r="8" /><path d="M21 21l-4.35-4.35" />
               </svg>
             </div>
@@ -191,7 +191,7 @@ export default function Events() {
               onChange={(e) => setSearch(e.target.value)}
               placeholder="Search events, categories..."
               aria-label="Search events"
-              className="w-full pl-11 pr-4 py-3.5 rounded-2xl bg-white/6 border border-white/12 text-white placeholder:text-white/25 text-sm focus:outline-none focus:border-violet-500/60 focus:ring-1 focus:ring-violet-500/30 transition-colors duration-200 backdrop-blur-sm"
+              className="w-full pl-11 pr-4 py-3.5 rounded-2xl bg-white/6 border border-white/12 text-black placeholder:text-white/25 text-sm focus:outline-none focus:border-violet-500/60 focus:ring-1 focus:ring-violet-500/30 transition-colors duration-200 backdrop-blur-sm"
             />
             {search && (
               <button
