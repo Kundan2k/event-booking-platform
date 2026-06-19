@@ -197,7 +197,7 @@ export default function Events() {
               <button
                 onClick={() => setSearch("")}
                 aria-label="Clear search"
-                className="absolute inset-y-0 right-4 flex items-center text-white/30 hover:text-white transition-colors duration-200"
+                className="absolute inset-y-0 right-4 flex items-center text-black/30 hover:text-black transition-colors duration-200"
               >
                 ✕
               </button>
